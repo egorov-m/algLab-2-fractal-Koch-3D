@@ -1,0 +1,20 @@
+{
+    "name": "fractal-koch-3d",
+    "version": "1.0.0",
+    "description": "Fractal Koch 3D",
+    "scripts": {
+        "start": "npx parcel ./src/index.html",
+        "deploy": "gh-pages -d dist"
+    },
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/dat.gui": "^0.7.7",
+        "dat.gui": "^0.7.9",
+        "gh-pages": "^4.0.0",
+        "parcel": "^2.7.0"
+    },
+    "dependencies": {
+        "three": "^0.145.0"
+    }
+}
