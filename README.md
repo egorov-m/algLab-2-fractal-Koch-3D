@@ -6,3 +6,5 @@
 npm i
 npm run start
 ```
+Server running at http://localhost:1234
+
