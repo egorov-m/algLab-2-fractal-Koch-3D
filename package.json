@@ -4,6 +4,7 @@
     "description": "Fractal Koch 3D",
     "scripts": {
         "start": "npx parcel ./src/index.html",
+        "build:parcel": "npx parcel build ./src/index.html --no-cache --public-url https://egorov-m.github.io/algLab-2-fractal-Koch-3D/",
         "deploy": "gh-pages -d dist"
     },
     "author": "",
